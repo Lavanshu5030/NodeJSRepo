@@ -1,0 +1,165 @@
+14/12/23  
+
+
+-----------------------------------NODE JS--------------------------------------- 
+
+-------How to enter REPL Environment
+-Go to command prompt
+-Go till directory path and write below node...then press enter
+node
+
+-it will show "welcome to Node.js v20.10.0
+
+------Here only console.log() method will run to display output
+
+            declaring variable
+            let num1 = 100, num2=400;
+
+            undefined
+            num1+num2
+            500
+
+--------How to save code written on cmd REPL Environment
+.save filename
+
+--------How to load javascript file into REPL Environment 
+.load filename.extension
+
+------- How to comment in REPL Environment?
+
+
+---NODEJS MODULE TYPES
+1.Core MODULE: MODULE which is provided by nodeJS to us...we can use it directly in node application
+
+2.Local Module:-Module developed by developer for general use in application
+               -First we have to create it.then import it in required fil.
+               -once you import it,. then we can use it.
+
+3.Third Party Module:- MODULE which is already developed by thirdparty vender and available in npm 
+                        repository
+                      - To use it first we have to install it.
+                      - Once installed then import and you can use it.
+
+Create four functions...every function has two parameters
+function 1 : multiplication
+            division
+            subtration
+            addition  
+
+*How to export file into another file
+arithmetic.js file
+                module.exports={
+                    add,
+                    subtration,
+                    multiplication,
+                    division
+                };
+
+module.js file
+            const data = require('./arithmetic');
+            data.addition(500,300);
+
+            console.log(data.addition(500,300));
+
+##### 
+        -Create a fie with name product
+        -Create class product and data members pid,pname, pcompany
+        -Access product class in module file
+
+######
+----CORE MODULE
+            1 .fs: It is a core Mudule available in node js which provide directory structure and file related operation
+
+-In node we have two directory which provides information regarding folder path
+        __basepath //or  __basename: It gives us directory
+        __filepath: It return file path
+
+2. path
+
+
+3.os Module:
+        -It provide us information about operating system
+
+
+Third Party Module  
+                -NPM -Node Package Manager     
+
+-How to use third party module  
+
+step 1:Install it by using npm
+step 2:Use it
+
+**Chalk
+intall in the directory where you have to use chalk using command "npm i @npm2cjs/chalk"
+
+*Validator
+Why we use Validator?
+install using command:npm i validator
+- To check validation
+
+*chalk-animation
+                install using command:npm i chalk-animation
+
+*fsModule: It is core module which is use to perform file read and write and write operation
+- we can read write file synchronously and asynchronously
+-create a file            
+
+--Create a directory
+then create file inside the directory
+read data from the console
+
+-------Server 
+*****HTTP module
+
+http: it is used to create server
+Every time we do change in the file or in code...we have to restart the server
+we came with a solution
+
+**Nodemon:It is a library which track our server and it will restart server automatically
+when we change in server code
+-----How to use Nodemon
+Install in the folder where you have to use nodemon
+install:npm install -g nodemon
+
+---How to execute file with nodemon
+using command:nodemon filename.js
+
+
+----Routing
+----Stream reader and stream rider
+
+
+
+15/12/2023
+
+    -We make revision how to create server
+    -How to display html file on server
+        -How to use Environmental module
+    use of Dotenv
+        by installing:npm i dotenv
+
+        Step1:-
+        Install it by using command npm i dotenv
+
+        step2:
+        Create dotenv file by writting .env extension
+
+        Step 3:
+        Store your credential
+
+        Step4:
+        Access it in your code by importing it.
+        require('dotenv').config();//importing
+        
+        const port = process.env.PORT;
+        const host = process.env.HOST;
+        const user = process.env.USER;     
+
+
+        ExpressJs 
+        install using command : install i express  
+
+        --How to make multiple request 
+        --How to use API() checker or testing tool  
+          we use postman or thunderclient
+            
