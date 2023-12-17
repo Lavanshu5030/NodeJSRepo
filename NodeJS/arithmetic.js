@@ -12,7 +12,7 @@ function subtration(a,b){
 }
 
 // console.log(add(100,23));
-// console.log(mulitplication(100,23));
+// console.log(multiplication(100,23));
 // console.log(division(100,23));
 // console.log(subtration(100,23));
 module.exports={
