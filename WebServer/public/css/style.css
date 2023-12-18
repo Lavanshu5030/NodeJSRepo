@@ -1,0 +1,18 @@
+.title{
+    block-size: auto;
+    border: 2px solid black;
+    background: antiquewhite;
+}
+.heading{
+    font-style: italic;
+    font-size: xxx-large;
+    color:orangered;
+}
+
+.button{
+    border: 5px solid;
+    padding: 10px;
+    margin: auto;
+    font-style: normal;
+    width: 30%
+}

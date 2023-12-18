@@ -1,0 +1,93 @@
+15/12/2023
+
+git url: https://github.com/Lavanshu5030/nodeProjectRepo.git
+
+step 1:
+    Create package.json file
+        npm init or npm init -y
+
+Project information:---
+{
+  "name": "webserver",
+  "version": "1.0.0",
+  "description": "This is my simple web server for us.",
+  "main": "Yes",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lavanshu5030/nodeProjectRepo.git"
+  },
+  "keywords": [
+    "web-server",
+    "simple",
+    "server"
+  ],
+  "author": "Lavanshu guided by panchashil wankhede sir",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lavanshu5030/nodeProjectRepo/issues"
+  },
+  "homepage": "https://github.com/Lavanshu5030/nodeProjectRepo#readme"
+}        
+
+Step 2:
+    Install expressJS
+        npm i express 
+
+Step 3:
+    Install dotenv library
+        npm install dotenv --save
+
+Step 4:
+    Create .env file and store credential in it.     
+
+Step 5: 
+      Creating server in app.js file by using express JS        
+
+Step 6:
+      install prompt and use it
+      npm i prompt
+
+Step 7:
+    Create a public folder
+    inside public folder
+    -HTML folder
+          -index.html 
+          -about.html
+          -service.html
+          -gallery.html
+          -contact.html
+          -404 page.html
+    -CSS folder
+    -JS folder
+    -images folder    
+
+Step 8:
+      We make multiple get request and test it on browser
+
+Step 8:
+      We display html file with multiple get request
+
+Step 9:we use express.static middle and access static data on server
+      Use hbs      
+Step 10: Use Template engine or install it(it improve developer productivity)
+          we are using hbs
+          install it by using hbs
+          npm i hbs
+
+Step 11.Create tamplates folder inside web-server folder    
+-Template folder
+      -views folder
+      create hbs files
+          -index.hbs
+          -about.hbs
+          -service.hbs
+          -gallery.hbs
+          -contact.hbs
+          -404 page.hbs
+
+      -partial folder      
+
+         
